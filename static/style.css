@@ -1,0 +1,25 @@
+:root {
+  --main-bg-color: #ffffff; /* Define a variable for the main background color */
+  --flash-bg-color: #ff8080;
+  --flash-text-color: #ffffff;
+  --border-radius: 10px;
+}
+
+body {
+  margin: 0;
+  line-height: 1.15em;
+  font-family: 'Arial', sans-serif; /* Choose a suitable font */
+  background-color: var(--main-bg-color);
+}
+
+.flash {
+  display: block;
+  margin: 16px;
+  padding: 16px;
+  background: var(--flash-bg-color);
+  color: var(--flash-text-color);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for better visibility */
+}
+
+/* Add more styles as needed for other elements in your application */
